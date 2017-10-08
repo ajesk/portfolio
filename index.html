@@ -10,14 +10,9 @@
 
     <title>Aaron Jeskie</title>
 
-    <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
   </head>
@@ -58,7 +53,7 @@
 
     <!-- Header -->
     <header class="header" id="top">
-      <div class="text-vertical-center">
+      <div class="text-vertical-center text-light">
         <h1>Aaron Jeskie</h1>
         <h3>Software Developer</h3>
         <br>
@@ -67,7 +62,7 @@
     </header>
 
     <!-- Services -->
-    <section id="shortcuts" class="services bg-dark text-white">
+    <section id="shortcuts" class="services bg-dark text-light">
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-10 mx-auto">
@@ -102,7 +97,7 @@
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-flask fa-stack-1x text-dark"></i>
+                    <i class="fa fa-file-text fa-stack-1x text-dark"></i>
                   </span>
                   <h4>
                     <strong>Does he have a resume?</strong>
@@ -114,109 +109,117 @@
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-shield fa-stack-1x text-dark"></i>
+                    <i class="fa fa-id-card fa-stack-1x text-dark"></i>
                   </span>
                   <h4>
-                    <strong>Service Name</strong>
+                    <strong>How can I reach him?</strong>
                   </h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
+                  <a href="#contact" class="btn btn-light js-scroll-trigger">Find out here!</a>
                 </div>
               </div>
             </div>
-            <!-- /.row (nested) -->
           </div>
-          <!-- /.col-lg-10 -->
         </div>
-        <!-- /.row -->
       </div>
-      <!-- /.container -->
     </section>
 
     <!-- About -->
-    <section id="about" class="about">
+    <section id="about" class="about bg-light text-dark">
       <div class="container text-center">
         <h2>Who is this guy?</h2>
-        <p class="lead">This is Aaron. He is a developer. He likes to code. He likes technology. He likes games. He likes craft beers. He likes satifyingly simple things.</p>
+        <p class="lead">This is Aaron. Simply put; he is a developer, he likes to code,
+          he likes technology, he likes games, he likes logical puzzles,
+          he likes craft beers,
+          he likes cooking, he likes satifyingly simple things, he likes reading
+          (namely on his kindle),
+          he likes film, he likes art, he likes to take his work seriously
+          (but not himself), and he likes to make references to films that most
+          people wouldn't get (can you figure out what this text is in reference
+          to?).<br>
+          All in all. I am (mainly) a back-end developer who has focused mostly on
+          Java and Java-esq languages (Scala/Groovy) and frameworks. I have worked
+          on projects ranging from big data archetectures to embedded system and
+          everything in between. Although I have focused mostly on Java throughout
+          my career, I am always open to branching out and learning new languages
+          to accomplish any task.
+          </p>
       </div>
-      <!-- /.container -->
     </section>
 
     <!-- Portfolio -->
-    <section id="" class="portfolio">
-      <aside id="portfolio" class="portfolio callout">
-        <div class="text-vertical-center">
-          <h1>What has he done?</h1>
-        </div>
-      </aside>
+    <aside id="portfolio" class="portfolio callout">
+      <div class="text-vertical-center text-dark">
+        <h1>What has he done?</h1>
+      </div>
+    </aside>
+    <section id="" class="portfolio bg-dark text-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
             <hr class="small">
             <div class="row">
               <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/portfolio-1.jpg">
+                <div id=portfolio-project class="portfolio-item">
+                  <h4 class="text-center">This website (meta isn't it ;))</h4>
+                  <a href="https://www.github.com/ajesk/portfolio">
+                    <img class="img-portfolio img-fluid" src="img/website.png">
                   </a>
                 </div>
               </div>
               <div class="col-md-6">
+                <h4 class="text-center">Sudoku Solver</h4>
                 <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/portfolio-2.jpg">
+                  <a href="https://www.github.com/ajesk/sudoku-solver">
+                    <img class="img-portfolio img-fluid" src="img/sudoku.jpg">
                   </a>
                 </div>
               </div>
               <div class="col-md-6">
+                <h4 class="text-center">Spark Starter</h4>
                 <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/portfolio-3.jpg">
+                  <a href="https://www.github.com/ajesk/spark-starter">
+                    <img class="img-portfolio img-fluid" src="img/spark.png">
                   </a>
                 </div>
               </div>
               <div class="col-md-6">
+                <h4 class="text-center">Curiosity (in progress)</h4>
                 <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-fluid" src="img/portfolio-4.jpg">
+                  <a href="https://www.github.com/ajesk/curiosity">
+                    <img class="img-portfolio img-fluid" src="img/github.png">
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h4 class="text-center">Kata (codewars)</h4>
+                <div class="portfolio-item">
+                  <a href="https://www.github.com/ajesk/kata">
+                    <img class="img-portfolio img-fluid" src="img/cw.png">
                   </a>
                 </div>
               </div>
             </div>
-            <!-- /.row (nested) -->
-            <a href="#" class="btn btn-dark">View More Items</a>
+            <!-- /.row (nested)
+            <a href="#" class="btn btn-light">View More Items</a>
+            -->
           </div>
-          <!-- /.col-lg-10 -->
         </div>
-        <!-- /.row -->
       </div>
-      <!-- /.container -->
     </section>
-
 
     <!-- resume -->
     <section id="resume" class="resume">
-      <aside class="call-to-action bg-primary text-white">
+      <aside class="call-to-action bg-light text-dark">
         <div class="container text-center">
-          <h3>The buttons below are impossible to resist.</h3>
-          <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-          <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+          <h3>Resume</h3>
+          <iframe width="100%" height="1000" src="https://docs.google.com/document/d/e/2PACX-1vT9z129ANCw5HzwtVdSkAjBeqZiNMXCNFkqcA_wLTpVkbx7xI09LtqGgftPwthKGXyr-VSl-9pKCxBu/pub?embedded=true"></iframe>
         </div>
       </aside>
     </section>
 
-    <!-- Map -->
-    <section id="contact" class="map">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-      <br/>
-      <small>
-        <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-      </small>
-    </section>
-
     <!-- Footer -->
-    <footer>
-      <div class="container">
+    <footer class="bg-dark text-light">
+      <div class="container" id="contact">
         <div class="row">
           <div class="col-lg-10 mx-auto text-center">
             <h4>
@@ -225,29 +228,24 @@
             <ul class="list-unstyled">
               <li>
                 <i class="fa fa-envelope-o fa-fw"></i>
-                <a href="mailto:name@example.com">name@example.com</a>
+                <a href="mailto:aaronjeskie@gmail.com">aaronjeskie@gmail.com</a>
               </li>
             </ul>
             <br>
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-facebook fa-fw fa-3x"></i>
+                <a target="_blank" href="https://www.github.com/ajesk">
+                  <i class="fa fa-github fa-fw fa-3x"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fa fa-twitter fa-fw fa-3x"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#d">
-                  <i class="fa fa-dribbble fa-fw fa-3x"></i>
+                <a target="_blank" href="https://www.linkedin.com/in/aaron-jeskie-b1350768/">
+                  <i class="fa fa-linkedin fa-fw fa-3x"></i>
                 </a>
               </li>
             </ul>
             <hr class="small">
-            <p class="text-muted">Copyright &copy; Your Website 2017</p>
+            <p class="text-muted">acode.io 2017</p>
           </div>
         </div>
       </div>
@@ -256,17 +254,10 @@
       </a>
     </footer>
 
-    <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.js"></script>
-
   </body>
-
 </html>
